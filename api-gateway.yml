@@ -4,5 +4,3 @@ spring:
   config:
     import: optional:configserver:http://localhost:8888
 
-jwt:
-  secretKey: your-256-bit-secret-key-here-make-it-long-and-secure
