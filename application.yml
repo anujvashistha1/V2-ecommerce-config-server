@@ -3,17 +3,6 @@ spring:
     name: api-gateway
   config:
     import: optional:configserver:http://localhost:8888
-
-jwt:
-  secretKey: mySuperSecretKey123456
-
-
-
-spring:
-  application:
-    name: api-gateway
-  config:
-    import: optional:configserver:http://localhost:8888
   cloud:
     gateway:
       routes:
